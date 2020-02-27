@@ -1,0 +1,26 @@
+# Estructura
+
+## Libro
+Un libro en Bookdown es un proyecto ``.Rproj`` que contiene un archivo ``.Rmd`` por cada capítulo, por lo tanto se recomienda que los nombres de los archivos ``.Rmd`` estén numerados. Además existe un archivo ``index.Rmd`` el cual es por defecto el primer "capítulo" del libro y usualmente contiene el *Prefacio*.  
+
+Los archivos ``.Rmd`` que tengan un guión bajo (_) por primer caracter en su nombre, no se incluirán en el libro. Usualmente estos archivos sirven para establecer ciertas configuraciones. Por ejemplo: 
+
+- Al incluir el archivo ``_bookdown.yml``, es posible definir el orden de los capítulos en el Libro, independientemente del nombre que lleven; esta acción se puede realizar para definir un orden para el libro en HTML y un orden diferente para el libro en LaTex.
+- En el archivo mencionado anteriormente, es posible definir también el formato (o los formatos) de salida del Libro (pdf, gitbook, html, epub). Esta última opción se puede incluir en el archivo ``index.Rmd``.
+- Finalmente, es posible definir en ``_bookdown.yml`` o en ``index.Rmd``, ciertos metadatos de importancia. Ej:  
+
+```{r metadata, eval=F}
+--- 
+title: "Authoring A Book with R Markdown"
+author: "Yihui Xie"
+date: "`r Sys.Date()`"
+site: "bookdown::bookdown_site"
+output:
+  bookdown::gitbook: default
+documentclass: book
+bibliography: ["book.bib", "packages.bib"]
+biblio-style: apalike
+link-citations: yes
+---
+```
+

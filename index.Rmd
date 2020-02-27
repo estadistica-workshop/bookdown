@@ -1,0 +1,15 @@
+---
+title: "Bookdown Resumen"
+author: "Alexander Andrade"
+site: bookdown::bookdown_site
+documentclass: book
+output:
+  bookdown::gitbook: default
+  # bookdown::pdf_book: default
+---
+
+# Prefacio {-}
+
+Literalmente éste es mi primer libro en Bookdown, lo crearé mientras aprendo como crearlo.
+
+<!-- If you need PDF output, uncomment bookdown::pdf_book above in YAML. You will need a LaTeX installation, e.g., https://yihui.name/tinytex/ -->

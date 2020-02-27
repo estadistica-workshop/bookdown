@@ -1,0 +1,49 @@
+# Introducción
+
+## Links 
+R Markdown:  
+<http://rmarkdown.rstudio.com>  
+Github:  
+<https://github.com>  
+GitBook style:  
+<https://www.gitbook.com>  
+Bookdown examples:  
+<https://bookdown.org>  
+Tufte CSS:  
+<http://edwardtufte.github.io/tufte-css/>  
+Tufte LaTex:  
+<https://tufte-latex.github.io/tufte-latex/>  
+Shiny applications:  
+<https://shiny.rstudio.com>  
+HTML widgets:  
+<https://htmlwidgets.org>  
+Múltiples posibles formatos:  
+<http://pandoc.org>  
+R cheatsheets:  
+<https://www.rstudio.com/resources/cheatsheets/>
+
+## Tips
+
+- Nombres de los paquetes van en negrita (Ej. **rmarkdown**)
+- El código entre líneas y los nombres de archivos van entre comillas extrañas (Ej. ``knitr::knit('foo.Rmd')``
+
+*Nota*: Cursiva = un asterísco, Negrita = dos asteríscos
+
+## Preliminares
+
+1. Bookdown demo:  
+<https://github.com/rstudio/bookdown-demo>  
+Bookdown demo minimalista:  
+<https://github.com/yihui/bookdown-minimal>
+
+2. Instalar bookdown package
+```{r bookdown_package, eval=F}
+install.packages("bookdown")
+```
+
+3. Abrir el archivo ``bookdown-demo.Rproj`` de la demo
+4. Abrir el archivo ``index.Rmd`` y click en ``Build Book``
+
+*Nota*: Descargar TinyTex para PDF en LaTex: <https://yihui.org/tinytex/>
+
+

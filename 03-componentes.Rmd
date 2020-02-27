@@ -1,0 +1,34 @@
+# Componentes
+
+## Sintaxis 
+No podria describir de mejor manera las principales opciones de formato con respecto a:  
+
+- Cursiva, negrita, código entre líneas
+- Subíndices, superíndices
+- Links, imágenes
+- Pie de página
+- Niveles de Header
+- Numeración
+- Blackquotes
+- Expresiones matemáticas
+
+Que el trabajo realizado en:  
+<https://bookdown.org/yihui/bookdown/markdown-syntax.html>
+
+## Referencias 
+Así también referencias de:  
+
+- Ecuaciones
+- Tablas
+- Chunks
+- Texto
+
+Alinear ecuaciones con respecto al signo igual (=).  
+
+Dividir en **Partes** el libro.  
+
+Crear **Apéndices**.  
+
+Toda esta información se encuentra en:  
+<https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html>
+
