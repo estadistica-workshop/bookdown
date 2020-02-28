@@ -4,7 +4,7 @@
 
 1. Bookdown
 
-```{r}
+```{r, eval=F}
 install.packages("bookdown")
 ```
 
