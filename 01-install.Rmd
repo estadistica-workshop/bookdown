@@ -1,0 +1,10 @@
+# Instalación
+
+**Pasos**
+
+1. Bookdown
+
+```{r}
+install.packages("bookdown")
+```
+
