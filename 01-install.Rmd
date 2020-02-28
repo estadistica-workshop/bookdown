@@ -8,3 +8,5 @@
 install.packages("bookdown")
 ```
 
+2. Install TinyTex
+
