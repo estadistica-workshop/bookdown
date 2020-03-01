@@ -24,7 +24,7 @@ R cheatsheets:
 
 ## Tips
 
-- Nombres de los paquetes van en negrita (Ej. **rmarkdown**)
+- Cursiva = un asterísco, Negrita = dos asteríscos
 - El código entre líneas y los nombres de archivos van entre comillas extrañas (Ej. ``knitr::knit('foo.Rmd')``
 
 *Nota*: Cursiva = un asterísco, Negrita = dos asteríscos
